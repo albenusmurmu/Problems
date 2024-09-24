@@ -1,0 +1,12 @@
+## Create a function that returns the concatenation of all atrings in an array
+
+let str = ["Hi","My","Name","is","Peter"];
+
+function concat(str){
+let result = "";
+for(let i = 0; i<str.length; i++){
+result += str[i];
+}
+return result;
+}
+console.log(concat(str));
